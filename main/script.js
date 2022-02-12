@@ -3,7 +3,7 @@ const jsp_records_per_page = 9; //if page has less or mroe lines then get screwe
 
 let jsp_json_object = [
     //Start golden rain
-    { json_item: '𝐆𝐨𝐥𝐝𝐞𝐧 𝐑𝐚𝐢𝐧 𝐄𝐱𝐩𝐞𝐫𝐢𝐦𝐞𝐧𝐭'},
+    { json_item: '𝐆𝐨𝐥𝐝𝐞𝐧 𝐑𝐚𝐢𝐧 𝐄𝐱𝐩𝐞𝐫𝐢𝐦𝐞𝐧𝐭' },
     { json_item: ""},
     { json_item: " The Golden Rain experiment is an example of a chemical reaction because when two colourless aqueous solutions were mixed together the solution changed to a bright yellow colour  and some dark yellow powder was formed to prove that there were two new substances produced when filtered."},
     { json_item: ""},
