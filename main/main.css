@@ -1,0 +1,38 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .navbarpos {
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+  }
+  
+  .centertext {
+    position: absolute;
+   text-align: center;
+  }
+
+  .buttonmargin {
+  margin: 2px;
+  }
+
+  .experimenttext {
+    font-size: 22px;
+    margin-right: 7px;
+    }
+
+  .mediumtext {
+    font-size: medium;
+  }
