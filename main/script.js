@@ -72,3 +72,4 @@ window.onload = () => {
 
     jsp_change_page(1);
 };
+
