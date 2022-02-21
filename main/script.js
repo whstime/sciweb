@@ -19,7 +19,7 @@ let jsp_json_object = [
     { text: "Chemical Equation: <div style='color: gray;'>HCl + Na<a class='smallsci'>2</a>CO<a class='smallsci'>3</a> = NaCl + H<a class='smallsci'>2</a>O+CO<a class='smallsci'>2(g)</a> </div>" },
     { text: "Observations: <div style='color:black'>When the base (Na<a class='smallsci'>2</a>CO<a class='smallsci'>3</a>) and the acid (HCl) mixed up they neutralized eachother thus the green color, this also created tablesalt(NaCl) and water(H<a class='smallsci'>2</a>O+CO<a class='smallsci'>2(g)</a>) in the end creating salty water (not potable because of the) </div>" },
     { images: ["FizzyRainbow (1).jpg","FizzyRainbow (2).jpg","FizzyRainbow (3).jpg"] },
-    { text: "" },
+    { text: "Explanation:" },
     { text: "" },
     { text: "" },
     { text: "" },
