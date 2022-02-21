@@ -3,7 +3,7 @@ const jsp_records_per_page = 10; //if page has less or mroe lines then get screw
 
 let jsp_json_object = [
     //Start golden rain
-    { heading: '𝐆𝐨𝐥𝐝𝐞𝐧 𝐑𝐚𝐢𝐧 𝐄𝐱𝐩𝐞𝐫𝐢𝐦𝐞𝐧𝐭' },
+    { heading: '(Acid & Bases) 𝐆𝐨𝐥𝐝𝐞𝐧 𝐑𝐚𝐢𝐧 𝐄𝐱𝐩𝐞𝐫𝐢𝐦𝐞𝐧𝐭' },
     { text: "" },
     { text: " The Golden Rain experiment is an example of a chemical reaction because when two colourless aqueous solutions were mixed together the solution changed to a bright yellow colour  and some dark yellow powder was formed to prove that there were two new substances produced when filtered." },
     { text: "" },
@@ -15,8 +15,19 @@ let jsp_json_object = [
     { images: ["tgre (1).jpg", "tgre (2).jpg","tgre (3).jpg"] },
     //End golden rain
     //Start fizzyrainbow
-    { heading: '𝐅𝐢𝐳𝐳𝐲 𝐑𝐚𝐢𝐧𝐛𝐨𝐰 𝐄𝐱𝐩𝐞𝐫𝐢𝐦𝐞𝐧𝐭' },
-    { images: ["tgre (3).jpg"] }
+    { heading: ' (Acid & Bases) 𝐅𝐢𝐳𝐳𝐲 𝐑𝐚𝐢𝐧𝐛𝐨𝐰 𝐄𝐱𝐩𝐞𝐫𝐢𝐦𝐞𝐧𝐭' },
+    { text: "Chemical Equation: <div style='color: gray;'>HCl + Na<a class='smallsci'>2</a>CO<a class='smallsci'>3</a> = NaCl + H<a class='smallsci'>2</a>O+CO<a class='smallsci'>2(g)</a> </div>" },
+    { text: "Observations: <div style='color:black'>When the base (Na<a class='smallsci'>2</a>CO<a class='smallsci'>3</a>) and the acid (HCl) mixed up they neutralized eachother thus the green color, this also created tablesalt(NaCl) and water(H<a class='smallsci'>2</a>O+CO<a class='smallsci'>2(g)</a>) in the end creating salty water (not potable because of the) </div>" },
+    { images: ["FizzyRainbow (1).jpg","FizzyRainbow (2).jpg","FizzyRainbow (3).jpg"] },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+    //End fizzyrainbow
+    //start making green
+    { heading: ' (Acid & Bases) Making Green' },
 ];
 
 function jsp_num_pages() {
@@ -42,6 +53,7 @@ function jsp_change_page(page) {
     const btn_next = document.getElementById('btn-next');
     const listing_table = document.getElementById('listing-table');
     let page_span = document.getElementById('page');
+    jsp_current_page = page;
 
     if (page < 1) {
         page = 1;
@@ -75,6 +87,7 @@ function jsp_change_page(page) {
     btn_next.style.display = (page === jsp_num_pages()) ? 'none' : 'inline-block';
 }
 
+
 function loadImage(src, div) {
     var img = new Image(250, 333);
     var div = document.getElementById('images');
@@ -98,3 +111,23 @@ window.onload = () => {
 
     jsp_change_page(1);
 };
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }

@@ -39,7 +39,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <h4 class="w3-bar-item"><b>Sidebar</b></h4>
   <a class="w3-bar-item w3-button w3-hover-black" href="https://github.com/whstime/sciweb">Source Code 
     <br>(GitHub Repo)</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="google.html">Slides and such</a>
+    <div class="dropdown">
+      <a onclick="myFunction()" class="w3-bar-item w3-button w3-hover-black dropbtn" >Experiments</a>
+      <div id="myDropdown" class="dropdown-content">
+        <a style="font-weight:bold;">Acid & Bases</a>
+        <a onclick="jsp_change_page(1)" href="#" >Golden Rain</a>
+        <a onclick="jsp_change_page(2)" href="#" >Fizzy Rainbow</a>
+        <a onclick="jsp_change_page(3)" href="#" >Making Green & Rainbow</a>
+      </div>
+    </div>
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -49,8 +57,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 <div class="w3-main" style="margin-left:250px">
 
   <div class="w3-row w3-padding-16 w3-center">
-      <p class="w3-text-teal" style="font-size: 35px;">Experiments</p>
-      <p>Experiment <span id="page"></span></p>
+      <p class="w3-text-teal" style="font-size: 35px;">Experiment <span id="page"></span></p>
   </div>
 
   <!-- Pagination -->
