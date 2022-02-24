@@ -18,16 +18,37 @@ let jsp_json_object = [
     { heading: ' (Acid & Bases) 𝐅𝐢𝐳𝐳𝐲 𝐑𝐚𝐢𝐧𝐛𝐨𝐰 𝐄𝐱𝐩𝐞𝐫𝐢𝐦𝐞𝐧𝐭' },
     { text: "Chemical Equation: <div style='color: gray;'>HCl + Na<a class='smallsci'>2</a>CO<a class='smallsci'>3</a> = NaCl + H<a class='smallsci'>2</a>O+CO<a class='smallsci'>2(g)</a> </div>" },
     { text: "Observations: <div style='color:black'>When the base (Na<a class='smallsci'>2</a>CO<a class='smallsci'>3</a>) and the acid (HCl) mixed up they neutralized eachother thus the green color, this also created tablesalt(NaCl) and water(H<a class='smallsci'>2</a>O+CO<a class='smallsci'>2(g)</a>) in the end creating salty water (not potable because of the) </div>" },
-    { images: ["FizzyRainbow (1).jpg","FizzyRainbow (2).jpg","FizzyRainbow (3).jpg"] },
+    { text: "" },
     { text: "Explanation:" },
     { text: "" },
     { text: "" },
     { text: "" },
     { text: "" },
-    { text: "" },
+	{ images: ["FizzyRainbow (1).jpg","FizzyRainbow (2).jpg","FizzyRainbow (3).jpg"] },
     //End fizzyrainbow
     //start making green
-    { heading: ' (Acid & Bases) Making Green' },
+    { heading: ' (Acid & Bases) 𝐌𝐚𝐤𝐢𝐧𝐠 𝐆𝐫𝐞𝐞𝐧, 𝐑𝐚𝐢𝐧𝐛𝐨𝐰 𝐚𝐧𝐝 𝐏𝐇-𝐒𝐜𝐚𝐥𝐞' },
+	{ text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+	{ text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+    { images: ["makinggreen (1).jpg", "makinggreen (2).jpg","makinggreen (3).jpg"] },
+	//End makinggreen
+    //start Litmus Paper
+    { heading: ' (Acid & Bases) 𝐋𝐢𝐭𝐦𝐮𝐬 𝐏𝐚𝐩𝐞𝐫' },
+	{ text: "" },
+    { text: "<a style='font-weight: bold'>" },
+    { text: "" },
+    { text: "" },
+	{ text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+	{ text: "" },
 ];
 
 function jsp_num_pages() {
