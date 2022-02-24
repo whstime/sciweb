@@ -29,11 +29,11 @@ let jsp_json_object = [
     //start making green
     { heading: ' (Acid & Bases) 𝐌𝐚𝐤𝐢𝐧𝐠 𝐆𝐫𝐞𝐞𝐧, 𝐑𝐚𝐢𝐧𝐛𝐨𝐰 𝐚𝐧𝐝 𝐏𝐇-𝐒𝐜𝐚𝐥𝐞' },
 	{ text: "" },
+    { text: "This is a big one, making green was hard but Hunter figured it out before me, if you put in the same ammount of each chemical (base and acid) and a small ammount of universal indicator in." },
     { text: "" },
-    { text: "" },
-    { text: "" },
+    { text: "The making rainbow was a bit harder and we did not get the full rainbow, but we tried and got some really cool colors." },
 	{ text: "" },
-    { text: "" },
+    { text: "the PH-Scale was great and it was pretty hard and we ended up getting so many different colors and expermimenting." },
     { text: "" },
     { text: "" },
     { images: ["makinggreen (1).jpg", "makinggreen (2).jpg","makinggreen (3).jpg"] },
@@ -41,7 +41,7 @@ let jsp_json_object = [
     //start Litmus Paper
     { heading: ' (Acid & Bases) 𝐋𝐢𝐭𝐦𝐮𝐬 𝐏𝐚𝐩𝐞𝐫' },
 	{ text: "" },
-    { text: "<a style='font-weight: bold'>" },
+    { text: "" },
     { text: "" },
     { text: "" },
 	{ text: "" },
