@@ -27,16 +27,16 @@ let jsp_json_object = [
 	{ images: ["FizzyRainbow (1).jpg","FizzyRainbow (2).jpg","FizzyRainbow (3).jpg"] },
     //End fizzyrainbow
     //start making green
-    { heading: ' (Acid & Bases) 𝐌𝐚𝐤𝐢𝐧𝐠 𝐆𝐫𝐞𝐞𝐧, 𝐑𝐚𝐢𝐧𝐛𝐨𝐰 𝐚𝐧𝐝 𝐏𝐇-𝐒𝐜𝐚𝐥𝐞' },
+    { heading: ' (Acid & Bases) 𝐌𝐚𝐤𝐢𝐧𝐠 𝐆𝐫𝐞𝐞𝐧, 𝐑𝐚𝐢𝐧𝐛𝐨𝐰.' },
 	{ text: "" },
     { text: "This is a big one, making green was hard but Hunter figured it out before me, if you put in the same ammount of each chemical (base and acid) and a small ammount of universal indicator in." },
     { text: "" },
-    { text: "The making rainbow was a bit harder and we did not get the full rainbow, but we tried and got some really cool colors." },
+    { text: "The making rainbow was a bit harder and we did not get the full rainbow, but we tried and got some really cool colors, we sadly did not take many pictures of this one!" },
 	{ text: "" },
-    { text: "the PH-Scale was great and it was pretty hard and we ended up getting so many different colors and expermimenting." },
     { text: "" },
     { text: "" },
-    { images: ["makinggreen (1).jpg", "makinggreen (2).jpg","makinggreen (3).jpg"] },
+    { text: "" },
+    { images: ["makinggreen (1).jpg", "makinggreen (2).jpg","makinggreen (3).jpg" ] },
 	//End makinggreen
     //start Litmus Paper
     { heading: ' (Acid & Bases) 𝐋𝐢𝐭𝐦𝐮𝐬 𝐏𝐚𝐩𝐞𝐫' },
@@ -48,7 +48,19 @@ let jsp_json_object = [
     { text: "" },
     { text: "" },
     { text: "" },
+    { text: "" },
+	//end litmus paper
+	//stand phscale
+    { heading: ' (Acid & Bases) 𝐏𝐇-𝐒𝐜𝐚𝐥𝐞' },	
+    { text: "" },
+    { text: "the PH-Scale was great and it was pretty hard and we ended up getting so many different colors and expermimenting." },
+    { text: "" },
 	{ text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+    { images: ["phscale.jpg" ] },	
 ];
 
 function jsp_num_pages() {
@@ -138,6 +150,12 @@ toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
+
+function myFunction2() {
+    document.getElementById("myDropdown2").classList.toggle("show");
+  }
+
+
   
   // Close the dropdown if the user clicks outside of it
   window.onclick = function(event) {
