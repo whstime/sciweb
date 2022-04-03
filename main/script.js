@@ -38,18 +38,6 @@ let jsp_json_object = [
     { text: "" },
     { images: ["makinggreen (1).jpg", "makinggreen (2).jpg","makinggreen (3).jpg" ] },
 	//End makinggreen
-    //start Litmus Paper
-    { heading: ' (Acid & Bases) 𝐋𝐢𝐭𝐦𝐮𝐬 𝐏𝐚𝐩𝐞𝐫' },
-	{ text: "" },
-    { text: "" },
-    { text: "" },
-    { text: "" },
-	{ text: "" },
-    { text: "" },
-    { text: "" },
-    { text: "" },
-    { text: "" },
-	//end litmus paper
 	//stand phscale
     { heading: ' (Acid & Bases) 𝐏𝐇-𝐒𝐜𝐚𝐥𝐞' },	
     { text: "" },
@@ -61,6 +49,19 @@ let jsp_json_object = [
     { text: "" },
     { text: "" },
     { images: ["phscale.jpg" ] },	
+    //End makinggreen
+	//Start Notes - Classification
+    { heading: '(Stile Notes) 𝐂𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧' },
+    { text: "" },
+	{ text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+    { text: "" },
+    //end notes - Classification
 ];
 
 function jsp_num_pages() {
